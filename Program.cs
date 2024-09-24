@@ -6,8 +6,6 @@ namespace Tärningspel
     {
         static void Main(string[] args)
         {
-            
-
             Console.WriteLine("Vill du spela? (ja/nej)");
             string answerPlay = Console.ReadLine();
 
@@ -21,8 +19,6 @@ namespace Tärningspel
 
                 Console.WriteLine("Välkommen till spelet 21. Få närmast 21 poäng utan att vara över 21 för att vinna.");
 
-                
-                
                 Console.WriteLine("Vill du dra ett kort eller stanna?");
                 string answer = Console.ReadLine();
 
@@ -75,9 +71,6 @@ namespace Tärningspel
 
                 }
 
-
-                
-                
                 if (sumDealer > 21)
                 {
                     Console.WriteLine("Du har vunnit!");
